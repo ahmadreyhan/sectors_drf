@@ -1,0 +1,6 @@
+.env
+/venv/
+/intro_drf/__pycache__/
+/intro_drf/migrations/
+/intro_drf/api/__pycache__/
+/intro_drf/intro_drf/__pycache__/
