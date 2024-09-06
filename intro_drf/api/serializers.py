@@ -15,3 +15,9 @@ class ReportsSerializer(serializers.ModelSerializer):
     class Meta:
         model = Reports
         fields = '__all__'
+
+class SubsectorTotalCompaniesSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = Reports
+        fields = ["sub_sector", "total_companies"]
+
